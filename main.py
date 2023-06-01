@@ -2,6 +2,7 @@ import speech_recognition
 import pyttsx3
 
 recognizer = speech_recognition.Recognizer()
+tts=pyttsx3.init()
 
 while True:
     try:
@@ -14,6 +15,9 @@ while True:
           text = text.lower()
 
           print(f"Recognized--> {text}")
+          tts.say(text)
+          tts.runAndWait()
+        
 
     except speech_recognition.UnknownValueError():
 
