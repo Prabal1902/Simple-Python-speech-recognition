@@ -9,3 +9,8 @@ STEPS:
    2. pyttx3
 
 3. Run and enjoy
+
+Documentation
+
+Check out the easy to read documentaion that breaks down the basics of speech recognition for this project here - https://prabalrawat.blogspot.com/2023/06/speech-recognition-in-python.html
+
